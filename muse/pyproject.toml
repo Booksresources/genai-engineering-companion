@@ -1,0 +1,8 @@
+[project]
+name = "muse"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = []          # added chapter by chapter (torch, transformers, diffusers, ...)
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "../ch2", "../ch5"]
